@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat+Alternates&family=Pacifico&family=Shadows+Into+Light&family=Work+Sans&display=swap');
+/*Menu*/
+.Menu{
+    width:100%;
+    height:60px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin-top: -10px;
+    
+}
+.logo{
+    width: auto;
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:60px;
+    overflow: hidden;
+    background-color: #cd93d7;
+}
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+li a:hover {
+    background-color: #a47fe7;
+    height:60px;
+  }
+.Webpage{
+    background-color: #97beaf; 
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    margin-left: 60px;
+    box-shadow: 4px 5px 10px #888888;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    margin: 20px;
+    position: absolute;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1em;
+}
+.Webpage>a{
+    text-decoration: none;
+}
+.Webpage:hover{
+    background-color: #a389bf;
+    color: #ffffff;
+    font-size: 1em;
+}
+/*Inicio*/
+.fondo{
+    width: 100%;
+    height: auto;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.inicio{
+    background-color: #d9f6f0;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+.Bie{
+    font-size: 3em;
+    margin-left: 35px;
+    margin-top: 150px;
+    font-family: Fantasy;
+
+}
+.I{
+    color: rgb(95, 95, 95);
+    margin-left: 35px;
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold; 
+}
+.Bien{
+    
+    width: 400px;
+    height: auto;
+}
+.days{
+    
+    width: 400px;
+    height: auto;
+    margin-right: 155px;
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+
+
+
+.fotocircular{
+    width: auto;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.nombre{
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 4em;
+    font-family: 'Shadows Into Light', cursive;
+}
+/*Sobre mi*/
+.sobremi{
+    background-color: #ffcddf;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1050px;
+}
+.fotosobremi{
+    width: 225px;
+    height: auto;
+    border-radius: 15px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 105px;
+}
+.smht{
+    
+    font-family: Fantasy;
+    text-align: center;
+
+}
+.partII{
+    float: left;
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 270px;
+    margin-bottom: auto;
+}
+.office{
+    float: left;
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 300px;
+    opacity:1;
+}
+
+.CV{
+    background-color: #97beaf; 
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    margin-left: 60px;
+    box-shadow: 4px 5px 10px #888888;
+    text-align: center;
+    display: inline-block;
+    width: 105px;
+    height: 50px;
+    margin: 20px;
+   
+
+}
+.CV>a{
+    text-decoration: none;
+    color: #000000;
+}
+.CV:hover{
+    background-color: #91B6A8;
+}
+.fotosdepasatiempos{
+    float: left;
+    margin-top: 200px;
+}
+.uno{
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sob{
+    font-size: xx-large;
+    margin-left: 50px;
+    font-family: Fantasy;
+
+}
+.sobr{
+    width: 400px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+    
+}
+
+.S{
+    color: rgb(95, 95, 95);
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold; 
+}
+/*Habilidades*/
+.experiencias{
+    background-color: #a389bf;
+    width: 100%;
+    height: auto;
+    
+    margin: 0;
+    padding: 0;
+}
+.expe{
+    width: 400px;
+    height: auto;
+}
+.exp{
+    font-size: xx-large;
+    margin-left: 35px;
+    font-family: Fantasy;
+}
+.E{
+    color:#ffffff;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 1.6;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold; 
+}
+.fotoshabilidades {
+    align-content: center;
+    margin-left: 200px;
+
+
+}
+.habilidades{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    float: inline-start;
+    margin: 10px;
+}
+
+/*Logros y concursos*/
+.logros{
+    background-color: #acf0be;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+}
+.fotosdelogros{
+    float: left;
+    margin-bottom: 140px;
+}
+.fotodelogros{
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.cultura{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    
+}
+table, th, td{
+    border:2px solid white;
+    width: 420px;
+    text-align: center;
+
+}
+.logr{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 35px;
+}
+.log{
+    font-size: xx-large;
+    margin-left: 35px;
+    font-family: Fantasy;
+}
+.L{
+    color: rgb(95, 95, 95);
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: x-large;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold; 
+}
+/*Contacto*/
+.contacto{
+    background-color: rgb(92,50,106);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 360px;
+}
+.cont{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(92,50,106);
+}
+
+.con{
+    font-size: xx-large;
+    margin-left: 35px;
+    font-family: Fantasy;
+    
+}
+.C{
+    color: rgb(95, 95, 95);
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: xx-large;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold; 
+}
+.insta{
+    
+    margin-top: 50px;
+    margin-left: 60px;
+    float: inline-start;
+    margin:5px;
+}
+.facebook{
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    float: inline-start;
+    margin:5px;
+}
+.twitter{
+    float: inline-start;
+    margin-top: 100px;
+    margin-bottom: -5px;
+    margin:5px;
+}
+.linkedin{
+    float: inline-start;
+    margin:10px;
+    margin-bottom: -5px;
+}
+.whatsapp{
+    float: inline-start;
+    margin:5px;
+    margin-bottom: -5px;
+}
+h2{
+    margin-left: 30px;
+}
